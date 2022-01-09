@@ -1,4 +1,4 @@
-# reckless-driver
+# Reckless Driver
 
 This is implementing to the OOP analysis, design and programming using uml
 making a game called <b>Reckless Driver</b>
