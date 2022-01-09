@@ -1,13 +1,10 @@
 #include <iostream>
-#include "Car.h"
-#include "GameObject.h"
-#include "SideObject.h"
-#include "FireHydrant.h"
+#include "Car/Car.h"
+#include "GameObject/GameObject.h"
+#include "GameObject/SideObject.h"
+#include "GameObject/FireHydrant.h"
 
-int main()
-{
-    FireHydrant f(50, "S");
-    f.SetName("Hydrant");
-    f.SetDamage(100);
+int main(){
+    FireHydrant f(123, "S");
     return 0;
 }
