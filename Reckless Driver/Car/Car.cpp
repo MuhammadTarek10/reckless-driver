@@ -4,6 +4,7 @@
 Car::Car(const std::string manu, float fuel, int reg):manufacturer(manu), registerationNum(reg){
 	this->fuel = fuel;
 	speed = 0;
+	isRunning = false;
 }
 
 void Car::SwitchOn(){
