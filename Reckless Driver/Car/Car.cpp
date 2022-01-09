@@ -19,7 +19,7 @@ void Car::Accelerate(){
 	if(!isRunning)
 		return;
 	++speed;
-	fuel -= 0.5f;
+	fuel -= 1.5f;
 
 }
 
