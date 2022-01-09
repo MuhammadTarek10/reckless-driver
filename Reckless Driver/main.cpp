@@ -4,7 +4,7 @@
 #include "GameObject/SideObject.h"
 #include "GameObject/FireHydrant.h"
 
-int main(){
+int main(void){
     FireHydrant f(123, "S");
     return 0;
 }
