@@ -1,5 +1,3 @@
-#include "Car.h"
-#include <iostream>
 
 Car::Car(const std::string manu, float fuel, int reg):manufacturer(manu), registerationNum(reg){
 	this->fuel = fuel;

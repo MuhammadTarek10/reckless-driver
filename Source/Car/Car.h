@@ -1,5 +1,5 @@
-#ifndef CAR_H
-#define CAR_H
+#ifndef _CAR_CPP_INCLUDED_
+#define _CAR_CPP_INCLUDED_
 #include <string>
 
 class Car {
@@ -21,5 +21,5 @@ public:
 	float GetSpeed();
 };
 
-
+#include "Car.cpp"
 #endif // CAR_H

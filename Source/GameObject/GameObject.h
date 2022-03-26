@@ -1,6 +1,7 @@
-#ifndef GAMEOBJECT_H
-#define GAMEOBJECT_H
+#ifndef _GAMEOBJECT_CPP_INCLUDED_
+#define  _GAMEOBJECT_CPP_INCLUDED_
 #include <string>
+#include <iostream>
 
 class GameObject{
 private:
@@ -12,4 +13,5 @@ public:
     virtual void onCollision(GameObject *pOther);
 };
 
+#include "GameObject.cpp"
 #endif // GAMEOBJECT_H

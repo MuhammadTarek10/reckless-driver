@@ -1,5 +1,5 @@
-#ifndef FIREHYDRANT_H
-#define FIREHYDRANT_H
+#ifndef _FIREHYDRANT_CPP_INCLUDED_
+#define  _FIREHYDRANT_CPP_INCLUDED_
 #include "SideObject.h"
 
 class FireHydrant : public SideObject{
@@ -8,5 +8,5 @@ public:
     void onCollision(GameObject *pOther);
 };
 
-
+#include "FireHydrant.cpp"
 #endif

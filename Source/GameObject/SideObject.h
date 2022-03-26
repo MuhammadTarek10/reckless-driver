@@ -1,14 +1,16 @@
-#ifndef SIDEOBJECT_H
-#define SIDEOBJECT_H
+#ifndef _SIDEOBJECT_CPP_INCLUDED_
+#define _SIDEOBJECT_CPP_INCLUDED_
 #include "GameObject.h"
 
 class SideObject:public GameObject{
 private:
     int m_Damage;
 public:
-    SideObject(int damage, const std::string &name): m_Damage(damage), GameObject(name){};
+    SideObject(int damage, const std::string &name);
     void SetDamage(int damage);
     int GetDamage();
 };
 
-#endif // SIDEOBJECT_H
+
+#include "SideObject.cpp"
+#endif

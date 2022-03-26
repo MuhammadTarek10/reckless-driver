@@ -1,4 +1,3 @@
-#include "SideObject.h"
 
 SideObject::SideObject(int damage, const std::string &name):m_Damage(damage), GameObject(name){}
 

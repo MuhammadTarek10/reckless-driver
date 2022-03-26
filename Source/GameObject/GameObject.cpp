@@ -1,5 +1,3 @@
-#include "GameObject.h"
-#include <iostream>
 
 GameObject::GameObject(const std::string &name): m_Name(name){}
 
