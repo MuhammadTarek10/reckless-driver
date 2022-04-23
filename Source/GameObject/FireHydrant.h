@@ -1,6 +1,5 @@
 #ifndef _FIREHYDRANT_CPP_INCLUDED_
 #define  _FIREHYDRANT_CPP_INCLUDED_
-#include "SideObject.h"
 
 class FireHydrant : public SideObject{
 public:
